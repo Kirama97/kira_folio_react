@@ -37,7 +37,7 @@ export default function RotateAnnime({
 
   return (
     <section className="w-full  text-white">
-      <div className=" py-5 flex flex-col   gap-4">
+      <div className=" py-5 flex flex-col max-md:items-center  gap-4">
       
           <h1 className="text-xl md:text-5xl font-extrabold leading-tight">
             Je suis <span className="sr-only">:</span>
@@ -49,7 +49,7 @@ export default function RotateAnnime({
               />
             </span>
           </h1>
-          <p className="mt-6 text-lg md:text-xl  text-white/90 max-w-2xl">
+          <p className="mt-6 text-lg md:text-xl max-md:text-center text-white/90 max-w-2xl">
             Créez des expériences web élégantes et performantes — portfolio,
             landing pages, et applications React + Tailwind.
           </p>

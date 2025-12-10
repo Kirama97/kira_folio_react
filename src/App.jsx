@@ -13,7 +13,7 @@ function App() {
   return (
      
     < Use_kira>
-       <div className='app bg-gray-900'>
+       <div className='app h-screen bg-gray-900'>
          <Header/>
          <Main/>
          <Footer/>
