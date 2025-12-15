@@ -39,6 +39,10 @@
   animation: gradientMove 3s ease infinite alternate;
 }
 
+body {
+  background: #1a1b20;
+}
 .app {
+    /* background :linear-gradient(black,rgba(11, 11, 49, 0.771), rgba(0, 0, 0, 0.935)) */
     background :linear-gradient(black,rgba(11, 11, 49, 0.771), rgba(0, 0, 0, 0.935)), url('/src/assets/ode.gif')
 }

@@ -1,13 +1,12 @@
 import React, { createContext, useContext ,useState } from 'react'
-
+import { data } from '../bd/data';
 
 const kiraContext = createContext()
 
 
-
 const Use_kira = ({children}) => {
- 
-    const [projets ,setProjets] = useState(["0"])
+    
+      const projets = data();
 
   const contextValue = {
 
