@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 
 export default function RotateAnnime({
@@ -55,18 +56,21 @@ export default function RotateAnnime({
           </p>
 
           <div className="mt-10 mb-10 flex gap-4">
-            <a
+            <NavLink
+              to="/contact"
               className="inline-block bg-white text-indigo-700 font-semibold px-5 py-3 rounded-lg shadow hover:scale-105 transition"
               href="#contact"
             >
               Me contacter
-            </a>
-            <a
+            </NavLink>
+            <NavLink
+             
+              to="/projets"
               className="inline-block text-white/90 border border-white/20 px-5 py-3 rounded-lg hover:bg-white/10 transition"
               href="#projets"
             >
               Mes projets
-            </a>
+            </NavLink>
           </div>
        
 
