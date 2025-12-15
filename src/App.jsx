@@ -17,8 +17,7 @@ function App() {
 
   return (
      
-     
-     
+
      <Router>
 
         < Use_kira>

@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import Main from './../composants/Main'
 import { usekiraContext } from '../Hook/use_kira'
 
+
 const Detail_projet = () => {
   const { projets } = usekiraContext()
   const { id } = useParams()
@@ -21,6 +22,7 @@ const Detail_projet = () => {
 
   return (
     <Main>
+
 
       {/* HERO IMAGE */}
       <div className="relative w-full h-[60vh] rounded-2xl overflow-hidden shadow-2xl">
@@ -115,6 +117,9 @@ const Detail_projet = () => {
         </div>
 
       </div>
+
+      
+
     </Main>
   )
 }
