@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Main from './../composants/Main'
-import { usekiraContext } from '../Hook/use_kira'
+import { usekiraContext } from '../hook/use_kira'
 
 
 const Detail_projet = () => {
